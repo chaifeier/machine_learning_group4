@@ -206,11 +206,11 @@ Evaluation类有十个子类，分别为Accuracy类，F1类，PR类，AUC类，R
 - `<body>`标签
 `<h1>`定义一级标题为“机器学习模型评估”，使用`<p align=”center”>`使得文本居中对齐。
     - 在id为”selection-area”的模块，包含了一系列的选项：用于用户选择数据集、分割器、分割比例、机器学习模型和模型评估指标。这些选项使用了居中对齐的二级标题，并用<div>和class属性进行包裹和样式控制。
-        - 用于选择数据集的radio按钮，class为"radio-container"，包含iris dataset,wine dataset和heart disease dataset三个选项。
+        - 用于选择数据集的radio按钮，class为"radio-container"，包含iris dataset，wine dataset和heart disease dataset三个选项。
         - 用于选择分割器的radio按钮，包含set-side method和bootstraping method两个选项。
         - 用于选择分割比例的radio按钮，包含10%和30%两个选项。
-        - 用于选择机器学习模型的radio按钮，包含KNN,K_means,SVM,GradientBoosting,linear regression,logistic regression,navie bayes,decision tree和random forest九个选项。
-        - 用于选择模型评估指标的radio按钮，包含Accuracy,Distance,AUC,F1,FM,MSE,PR,Rand,RMSE和ROC十个选项。
+        - 用于选择机器学习模型的radio按钮，包含KNN，K_means，SVM，GradientBoosting，linear regression，logistic regression，navie bayes，decision tree和random forest九个选项。
+        - 用于选择模型评估指标的radio按钮，包含Accuracy，Distance，AUC，F1，FM，MSE，PR，Rand，RMSE和ROC十个选项。
     - 在id为“action-area”的模块，创建了一个操作区域，包含了"运行"和"重置"两个按钮。点击"运行"按钮会调用send()函数，点击"重置"按钮会调用resetForm()函数。这些按钮使用`<input>`标签创建，type属性指定按钮类型，value属性设置按钮显示的文本内容。
     - 在id为“action-title”的模块，创建了一个带有"运行结果"标题的区域。
     - 在id为“result-area”的模块，创建了一个用于显示结果的空白区域。
